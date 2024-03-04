@@ -1,0 +1,28 @@
+body{
+    overflow-x: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+   
+
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.input-group input{
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 3px;
+}
+.form{
+    width: 500px !important;
+    padding: 30px;
+    background-color: rgb(0, 0, 0,0.5);
+    box-shadow: 0 0 8px rgb(59, 58, 58);
+}
+
+select{
+    height: 40px;
+}

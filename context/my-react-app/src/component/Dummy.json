@@ -1,0 +1,23 @@
+{
+    "items":[
+        {
+            "id":1,
+            "name":"T",
+            "password":"T",
+            "role":"admin"
+        },
+        {
+            "id":2,
+            "name":"Lavanya",
+            "password":"Lavanya",
+            "role":"vendor"
+        }, {
+            "id":3,
+            "name":"kural",
+            "password":"Kural",
+            "role":"user"
+        }
+    ]
+}
+
+

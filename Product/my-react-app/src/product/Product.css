@@ -1,0 +1,52 @@
+.main{
+    display: flex;
+    justify-content: center;
+    
+}
+.form{
+ text-align: left;
+}
+.status-check{
+    margin-left: -340px !important;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;    
+}
+
+.input-group input{
+    font-size: 20px;
+    margin-top: 5px;    
+}
+
+body{
+    width:100%;
+    background-color: rgba(24, 181, 181, 0.747) !important;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+}
+
+.form_change{
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.514);
+    box-shadow: 0 0 30px rgb(0,0,0,0.5);
+    width: 450px;
+    padding: 40px;
+    color: white;   
+}
+
+.table_change{
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.164);
+    box-shadow: 0 0 30px rgb(0,0,0,0.5);
+    padding: 40px;
+}
+

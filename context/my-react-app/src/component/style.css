@@ -1,0 +1,293 @@
+body{
+  overflow-x: hidden;
+  background-color:rgba(220, 220, 220, 0.281) !important;
+}
+
+.btn {
+  background-color: #fb771a !important;
+  border-color: #fb771a !important;
+}
+
+.card {
+  box-shadow: 0 0 20px rgb(0, 0, 0, 0.5);
+  border-radius: 10px !important;
+  max-width: 950px;
+  width: 100%;
+}
+
+.image {
+  max-height: 100hv;
+}
+
+.content {
+  background-color: #F6F7FC;
+}
+
+.password {
+  font-size: 14px;
+}
+
+a {
+  color: #888 !important;
+}
+
+.remember {
+  font-size: 14px;
+}
+
+.form-control {
+  height: 3rem;
+}
+
+
+
+main {
+  width: 100%;
+  padding: 20px;
+}
+
+.scroll-icon {
+  position: absolute;
+  top: 80px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 10px;
+  background: #191D23;
+  color: #fff !important;
+  height: 100vh;
+  width: 160px;
+  transition: all 0.5s;
+  border-radius: 10px !important;
+  overflow-x: visible;
+}
+
+.top_section {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.logo {
+  font-size: 30px;
+}
+
+.bars {
+  display: flex;
+  font-size: 25px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+
+}
+
+.link:hover {
+  transition: all 0.5s;
+}
+
+.active {
+  color: #000;
+}
+
+.link_text {
+  font-size: 16px;
+}
+
+.circleR {
+  color: #FE5B53;
+}
+
+.circleY {
+  color: #E6C02B;
+}
+
+.circleG {
+  color: #53C22C;
+}
+
+.circle {
+  font-size: 8px;
+}
+
+.user-name {
+  font-size: 12px;
+  color: #888;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 8px !important;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: grey;
+  z-index: 1;
+}
+
+
+.sidenav-container .FaAngleRight,
+.sidenav-container .FaAngleLeft {
+  position: fixed;
+  cursor: pointer;
+  background-color: #888;
+  border-radius: 20px;
+  padding: 2px;
+  color: #fff;
+  font-size: 20px;
+  transition: color 0.8s;
+}
+
+.sidenav-container .FaAngleRight:hover,
+.sidenav-container .FaAngleLeft:hover {
+  color: #ccc;
+}
+
+.notification-badge {
+  margin-left: 30px;
+  background-color: #FFBB1E;
+}
+
+.message-badge {
+  margin-left: 51px;
+  background-color: #FFBB1E;
+}
+
+.addcircle {
+  margin-left: 91px;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: -3px;
+}
+
+.arrowup {
+  margin-left: 73px;
+}
+
+.transparent-card {
+  width: 170px;
+  height: 160px;
+  border: 2px solid grey;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 20px;
+  border-style: dotted !important;
+}
+
+.pluscircle {
+  background-color: #302de0 !important;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plus {
+  background-color: #302de0 !important;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ .line-drop{
+  left: 230px;
+  top: 0;
+  border: 0;
+  border-left: 2px solid gainsboro;
+  margin-left: 20px;
+} 
+ .line-drop-ul {
+  border: 0;
+  border-left: 2px solid red;
+}
+
+.line-drop {
+  left: 230px;
+  top: 0;
+  border: 0;
+  margin-left: 20px;
+}
+
+.line-drop a {
+  padding-left: 2px;
+}
+
+.line-drop a {
+  border-left: 2px solid gainsboro;
+}
+
+
+.curve-line-drop::before {
+  content: "";
+  border: 1px solid transparent;
+  border-bottom-color: gainsboro;
+  width: 30px;
+  height: 50px;
+  top: -15px;
+  left: -35px;
+  border-radius: 50%;
+  transform: rotate(45deg);
+  margin-left: 1px;
+  margin-top: -40px;
+}
+
+.classdrop {
+  margin-left: -16px;
+  font-size: 14px;
+}
+
+.popup-message {
+  position: relative !important;
+  background-color: black !important;
+  color: white !important;
+}
+
+.outside-popup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  z-index: 999; 
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.tooltip {
+  position: absolute;
+  background: black;
+  color: white;
+  font-size: 0.875rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-align: center;
+}
+#dashboard-popover {
+  border-radius: 15px;
+  background-color:#15171C; 
+  padding: 1px 15px 1px 15px; 
+  margin-right: 60px;
+ 
+  top: 40px !important;
+    left: -40px !important;
+ 
+}
+.bs-popover-auto[data-popper-placement^=right]>.popover-arrow::after, .bs-popover-auto[data-popper-placement^=right]>.popover-arrow::before, .bs-popover-end>.popover-arrow::after, .bs-popover-end>.popover-arrow::before {
+  border-width:0;
+}
+
+
+.list{
+  margin-left: 240px;
+} 
+
+.sagaform{
+  margin-left: 190px;
+}
